@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.zuhra.myapplication.view.GenerateQRCode">
+
+        <Button
+            android:id="@+id/qrBut"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/numberPicker"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Generate" />
+
+        <GridLayout
+            android:id="@+id/gridView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentTop="false"
+            android:layout_below="@+id/qrBut"
+            android:layout_marginTop="10dp"
+            android:columnCount="3"
+            android:rowOrderPreserved="false" />
+
+        <EditText
+            android:id="@+id/numberPicker"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="2"
+            android:maxLines="1" />
+
+        <Button
+            android:id="@+id/save"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/gridView"
+            android:layout_alignParentEnd="true"
+            android:text="@string/create_bitmap" />
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">ShareMeBackend</string>
+    <string name="action_settings">Настройки</string>
+    <string name="title_activity_main">Главное</string>
+
+    <string name="navigation_drawer_open">Открыть шторку</string>
+    <string name="navigation_drawer_close">Закрыть шторку</string>
+    <string name="login">Авторизация</string>
+    <string name="main_activity">Каталог товаров</string>
+    <string name="regist">Регистрация</string>
+    <string name="apply">Заявка</string>
+    <string name="product_detail">Товар</string>
+    <string name="new_product_menu_item">Новый аппарат</string>
+    <string name="new_users">Новый пользователь</string>
+    <string name="new_product">Новый аппарат</string>
+    <string name="auth">Вход</string>
+    <string name="category_title">Категория</string>
+    <string name="brand">Брэнд</string>
+    <string name="release_date">Дата выпуска</string>
+    <string name="note">Заметки</string>
+    <string name="save">Сохранить</string>
+    <string name="clear">Очистить</string>
+    <string name="serial_num">Серийный номер</string>
+    <string name="new_product_add_date">Дата добавления</string>
+    <string name="new_product_name">Имя</string>
+    <string name="read_QR">QR code</string>
+    <string name="generate_qr_code">QRCode</string>
+    <string name="generate_activity">Генерация</string>
+    <string name="create_bitmap">Создать файл</string>
+    <string name="login_activity_label">Авторизация</string>
+    <string name="apply_empty">Нет заявок</string>
+    <string name="remember_me">Запомнить меня?</string>
+    <string name="login_button_text">Далее</string>
+    <string name="regist_button">Регистрация</string>
+    <string name="password_hint">Пароль</string>
+    <string name="email_hint">Почта</string>
+    <string name="regist_title">Регистрация</string>
+    <string name="regist_name_hint">Имя</string>
+    <string name="number_hint">Номер телефона</string>
+    <string name="nav_bar_setting">Настройки</string>
+    <string name="nav_bar_logout">Выход</string>
+    <string name="welcome_header">Добропожаловать</string>
+
+</resources>

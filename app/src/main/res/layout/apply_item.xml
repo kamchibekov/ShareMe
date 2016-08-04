@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="4dp"
+    android:background="@android:color/white"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/item_button_yes"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:text="@android:string/ok"
+        style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_toLeftOf="@+id/item_button_yes"
+        android:id="@+id/item_button_no"
+        android:text="no"
+        android:textColor="@android:color/holo_red_light"
+        style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        tools:text="text view"
+        android:id="@+id/item"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+</RelativeLayout>

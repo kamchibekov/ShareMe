@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">ShareMeBackend</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="login">Login</string>
+    <string name="main_activity">Products</string>
+    <string name="regist">Regist</string>
+    <string name="apply">Apply</string>
+    <string name="product_detail">Product</string>
+    <string name="new_product_menu_item">New product</string>
+    <string name="new_users">New users</string>
+    <string name="new_product">New product</string>
+    <string name="auth">Auth</string>
+    <string name="category_title">Category</string>
+    <string name="brand">Brand</string>
+    <string name="release_date">Release Date</string>
+    <string name="note">Notes</string>
+    <string name="save">Save</string>
+    <string name="clear">Clear</string>
+    <string name="serial_num">Serial num</string>
+    <string name="new_product_add_date">Add date</string>
+    <string name="new_product_name">Name</string>
+    <string name="read_QR">QR code</string>
+    <string name="generate_qr_code">QRCode</string>
+    <string name="generate_activity">GenerateActivity</string>
+    <string name="create_bitmap">Save QRCodes</string>
+    <string name="login_activity_label">Login</string>
+    <string name="apply_empty">Empty apply</string>
+    <string name="num_picker_hint"><![CDATA[ < 20]]></string>
+    <string name="remember_me">Remember me?</string>
+    <string name="login_button_text">Enter</string>
+    <string name="regist_button">Registration</string>
+    <string name="password_hint">Password</string>
+    <string name="email_hint">Email</string>
+    <string name="regist_title">Registration</string>
+    <string name="regist_name_hint">Name</string>
+    <string name="number_hint">Number</string>
+    <string name="nav_bar_setting">Setting</string>
+    <string name="nav_bar_logout">Logout</string>
+    <string name="welcome_header">Welcome</string>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/progress_bar_menu_item"
+        android:title="progres_bar"
+        app:actionLayout="@layout/progress_bar"
+        app:showAsAction="always"
+        android:orderInCategory="100"
+        />
+    <item
+        android:orderInCategory="110"
+        android:id="@+id/edit_product"
+        android:icon="@drawable/ic_edit_"
+        android:title="New product"
+        app:showAsAction="always" />
+</menu>
